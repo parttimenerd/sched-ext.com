@@ -17,6 +17,9 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p>
+         <img src="img/sched_contest.png" className="logoSvg" alt="contest_logo" />
+        </p>
       </div>
     </header>
   );
